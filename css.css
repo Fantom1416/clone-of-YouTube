@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: bisque;
+    overflow-y: auto;
+}
+
+button {
+    position: absolute;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+ul {
+
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    list-style: none;
+}
+
+li {
+    border: 1px solid #00000097;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
